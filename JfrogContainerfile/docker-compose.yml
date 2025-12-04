@@ -1,0 +1,54 @@
+services:
+  artifactory:
+    image: localhost/jfrog-artifatcory-pro-cracked:7.104.14
+    environment:
+      - JF_SHARED_DATABASE_URL=jdbc:postgresql://postgresql:5432/artifactory
+      - JF_SHARED_DATABASE_DRIVER=org.postgresql.Driver
+      - JF_ROUTER_ENTRYPOINTS_EXTERNALPORT=8082
+      - JF_SHARED_DATABASE_TYPE=postgresql
+      - JF_SHARED_DATABASE_USERNAME=artifactory
+      - JF_SHARED_DATABASE_PASSWORD=password
+    ports:
+      - 8082:8082
+      - 8081:8081
+      - 8080:8080
+    volumes:
+      - /opt/artifactory/app:/var/opt/jfrog/artifactory
+      - /etc/localtime:/etc/localtime:ro
+    depends_on:
+      - postgresql
+    restart: always
+    logging:
+      driver: json-file
+      options:
+        max-size: "50m"
+        max-file: "10"
+    ulimits:
+      nproc: 65535
+      nofile:
+        soft: 32000
+        hard: 40000
+
+  postgresql:
+    image: releases-docker.jfrog.io/postgres:17.6-alpine
+    container_name: postgresql
+    environment:
+      - POSTGRES_DB=artifactory
+      - POSTGRES_USER=artifactory
+      - POSTGRES_PASSWORD=password
+    ports:
+      - 5432:5432
+    volumes:
+      - /opt/artifactory/postgres:/var/lib/postgresql/data
+      - /etc/localtime:/etc/localtime:ro
+    restart: always
+    logging:
+      driver: json-file
+      options:
+        max-size: "50m"
+        max-file: "10"
+    ulimits:
+      nproc: 65535
+      nofile:
+        soft: 32000
+        hard: 40000
