@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom serialNumber="urn:uuid:5264bc6a-6195-4075-b8f8-5f81f4250201" version="1" xmlns="http://cyclonedx.org/schema/bom/1.6">
+  <metadata>
+    <timestamp>2025-12-04T15:22:38Z</timestamp>
+    <tools>
+      <components>
+        <component type="application">
+          <author>CycloneDX</author>
+          <name>cyclonedx-gradle-plugin</name>
+          <version>3.1.0</version>
+        </component>
+      </components>
+    </tools>
+    <component type="library" bom-ref="pkg:maven/icu.lama/ArtifactoryAgent@1.0-SNAPSHOT?project_path=%3AArtifactoryAgent">
+      <group>icu.lama</group>
+      <name>ArtifactoryAgent</name>
+      <version>1.0-SNAPSHOT</version>
+      <purl>pkg:maven/icu.lama/ArtifactoryAgent@1.0-SNAPSHOT?project_path=%3AArtifactoryAgent</purl>
+      <modified>false</modified>
+    </component>
+  </metadata>
+  <components>
+    <component type="library" bom-ref="pkg:maven/org.javassist/javassist@3.29.2-GA?type=jar">
+      <publisher>Shigeru Chiba, www.javassist.org</publisher>
+      <group>org.javassist</group>
+      <name>javassist</name>
+      <version>3.29.2-GA</version>
+      <description>Javassist (JAVA programming ASSISTant) makes Java bytecode manipulation
+    simple.  It is a class library for editing bytecodes in Java.</description>
+      <hashes>
+        <hash alg="MD5">9783c90ffa4d36eddda9526fde06f3ea</hash>
+        <hash alg="SHA-1">6c32028609e5dd4a1b78e10fbcd122b09b3928b1</hash>
+        <hash alg="SHA-256">a90ddb25135df9e57ea9bd4e224e219554929758f9bae9965f29f81d60a3293f</hash>
+        <hash alg="SHA-512">5f9e939a0c094e2c4d4b8509c126fcb9033ea47c2577e172b2326c8aceb86b5bc3168d056b3d986c7bb3d3f46ed6fed3155c77734afcbb8cb75162df0375a657</hash>
+        <hash alg="SHA-384">8b1f8b7235a7aeab500bcff13b5f88fe95df983502975021ac7d5edd0c73d708f65da48796f5680f2ef710fed9d0e0aa</hash>
+        <hash alg="SHA3-384">d7944350dfa3808264a93445efedbab2645807d533b8cd9e95540e94ae38c6b7aafa6e29d1cbba669b67dda69881814e</hash>
+        <hash alg="SHA3-256">a87df212cdfc24f3075ac8d4dec52cc9bd16446ec489706f60939aaf196fef50</hash>
+        <hash alg="SHA3-512">9fffcb716b656fff4ad299ca4ef1b11166016a4bbe6c97317c894ca3163136ec1dbae62cc46a9f8a945cc6592ab930dccf8e0261f0a89025b0a8380fdc96e8b2</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MPL-1.1</id>
+        </license>
+        <license>
+          <id>LGPL-2.1-only</id>
+        </license>
+        <license>
+          <id>Apache-2.0</id>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.javassist/javassist@3.29.2-GA?type=jar</purl>
+      <modified>false</modified>
+      <externalReferences/>
+      <properties>
+        <property name="cdx:maven:package:test">false</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jetbrains/annotations@24.0.0?type=jar">
+      <group>org.jetbrains</group>
+      <name>annotations</name>
+      <version>24.0.0</version>
+      <description>A set of annotations used for code inspection support and code documentation.</description>
+      <hashes>
+        <hash alg="MD5">879614e1a8678b4db231a05cae8cdb03</hash>
+        <hash alg="SHA-1">69b8b443c437fdeefa8d20c18d257b94836a92b9</hash>
+        <hash alg="SHA-256">ff112f54ce874b8ae899cfd68f0315d96c9f406a338b8eca80c76d10e2e5a2f7</hash>
+        <hash alg="SHA-512">08dea7e18f4e7ac699dd12b36d798033f418d58913748d514908a64320e1666f3e20f6e6e91529f8d13fe911565ac6e83df342936b9f6d661e069102bb788651</hash>
+        <hash alg="SHA-384">1f5d3332a6e5a0e719e283f5d2a5348323b7023aeb84ecd0132ca79894eaf0fdc2804c44b960c854ab7b3c36e52fcedb</hash>
+        <hash alg="SHA3-384">41383d5b617ce4ac07606b81ee21191ace2eb344333368079e8e3f20ed0c938d6385e71b58c1ea4aa7d14d9aa6478813</hash>
+        <hash alg="SHA3-256">f1651f48199ac77121ba7c95482e6bb873587f8f3d6849c12bd003573741a987</hash>
+        <hash alg="SHA3-512">34259f74eda8628a63879bb163212462252e539564a6e8275bfc5da34bf6e41656a9cb512c29d99285c3ad51163cd0b6c1c56d5ae4fa9c9274baa48bec52ac4d</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jetbrains/annotations@24.0.0?type=jar</purl>
+      <modified>false</modified>
+      <externalReferences/>
+      <properties>
+        <property name="cdx:maven:package:test">false</property>
+      </properties>
+    </component>
+  </components>
+  <dependencies>
+    <dependency ref="pkg:maven/icu.lama/ArtifactoryAgent@1.0-SNAPSHOT?project_path=%3AArtifactoryAgent">
+      <dependency ref="pkg:maven/org.jetbrains/annotations@24.0.0?type=jar"/>
+      <dependency ref="pkg:maven/org.javassist/javassist@3.29.2-GA?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/org.javassist/javassist@3.29.2-GA?type=jar"/>
+    <dependency ref="pkg:maven/org.jetbrains/annotations@24.0.0?type=jar"/>
+  </dependencies>
+</bom>

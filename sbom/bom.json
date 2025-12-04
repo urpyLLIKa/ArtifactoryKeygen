@@ -1,0 +1,1883 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.6",
+  "serialNumber" : "urn:uuid:d07ded6a-f86d-42a5-8d15-3e8716542f76",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2025-12-04T15:22:35Z",
+    "tools" : {
+      "components" : [
+        {
+          "type" : "application",
+          "author" : "CycloneDX",
+          "name" : "cyclonedx-gradle-plugin",
+          "version" : "3.1.0"
+        }
+      ]
+    },
+    "component" : {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/icu.lama/ArtifactoryKeygen@1.0-SNAPSHOT?project_path=%3A",
+      "group" : "icu.lama",
+      "name" : "ArtifactoryKeygen",
+      "version" : "1.0-SNAPSHOT",
+      "purl" : "pkg:maven/icu.lama/ArtifactoryKeygen@1.0-SNAPSHOT?project_path=%3A",
+      "modified" : false
+    }
+  },
+  "components" : [
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/commons-cli/commons-cli@1.8.0?type=jar",
+      "group" : "commons-cli",
+      "name" : "commons-cli",
+      "version" : "1.8.0",
+      "description" : "Apache Commons CLI provides a simple API for presenting, processing and validating a Command Line Interface.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "631937816bd22302ae49828e9b764313"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "41a4bff12057eecb6daaf9c7f36c237815be3da1"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "f94c98bbcfa1c1dac6956d6c3f494ec40265c67bf54ddefc95df4ffdd73ae6d5"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "2e5e547709e8ad35be44927382a0862467dcacc87e0351d092fd128fa7097a3b4c900fe452be50ace2e80c198d38f48e94fdb2da86e1480096de4a5580c28534"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "f979529b54592eaa479b4a0f7dd73d87127dc19254dc2a6da628ec17a9ed25cdfea4b9e3cda66b5b819b0cc3540eb0b1"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "d1eee9c0d18566c81a93e1652145a7aabd0abaf17c06aeb734df74c949479b0c93396fbf622341b1ce61118d1ec2a5bc"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "d74c8b30995668a5f69f05922396b5641f1e4023d8cecabc0aabd9dc6fa533db"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "b6b3f493756e8a7d17633018354e7050f0d8344008cc0ff92f642132836ac7a0d92a6c7044d023ce95ed3479e1affd29d1eb8b58f1fb8b7410ceb3bd9cc38e6f"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0",
+            "url" : "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/commons-cli/commons-cli@1.8.0?type=jar",
+      "modified" : false,
+      "externalReferences" : [ ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/commons-codec/commons-codec@1.13?type=jar",
+      "group" : "commons-codec",
+      "name" : "commons-codec",
+      "version" : "1.13",
+      "description" : "The Apache Commons Codec package contains simple encoder and decoders for various formats such as Base64 and Hexadecimal. In addition to these widely used encoders and decoders, the codec package also maintains a collection of phonetic encoding utilities.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "5085f186156822fa3a02e55bcd5584a8"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "3f18e1aa31031d89db6f01ba05d501258ce69d2c"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "61f7a3079e92b9fdd605238d0295af5fd11ac411a0a0af48deace1f6c5ffa072"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "e78265b77a4b69d8d66c45f98b70fb32d84b214a4323b86e9191ffc279bb271243b43b7d38edbc2ba8a1f319b6d642ab76a6c40c9681cea8b6ebd5b79c3a8b93"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "24bdb183e7c6204f7b725467d0936adb9d75f3be7dfd403fb37e4e8dea4506665e447dedb27e7fdb7b284b07e6c6ccb4"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "fb6ca7b9dc4e65f502a13849b5f6cace152ce99e5b1773e491fe4b2c7a259360b4fb940e5ea8ac57d4ea33cf288dbc55"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "59aa868e1b30bdb69d986248abf5d318c1122058b380e03b8de0f10bc59e5b5d"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "aa59b6235ef5fdd249b906a2165693fa859d6901f8cc761b2dbe01985c4447cc9fb733b16a34c1b15dcbdc20e4eaf673606680c8049c7ef518be5a294393264c"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/commons-codec/commons-codec@1.13?type=jar",
+      "modified" : false,
+      "externalReferences" : [ ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/commons-logging/commons-logging@1.2?type=jar",
+      "group" : "commons-logging",
+      "name" : "commons-logging",
+      "version" : "1.2",
+      "description" : "Apache Commons Logging is a thin adapter allowing configurable bridging to other, well known logging systems.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "040b4b4d8eac886f6b4a2a3bd2f31b00"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "4bfc12adfe4842bf07b657f0369c4cb522955686"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "daddea1ea0be0f56978ab3006b8ac92834afeefbd9b7e4e6316fca57df0fa636"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "ed00dbfabd9ae00efa26dd400983601d076fe36408b7d6520084b447e5d1fa527ce65bd6afdcb58506c3a808323d28e88f26cb99c6f5db9ff64f6525ecdfa557"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "ac20720d7156131478205f1b454395abf84cfc8da2f163301af32f63bd3c4764bd26cb54ed53800f33193ae591f3ce9c"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "628eb4407e95dca84da1a06b08a6d9b832a49de8472b1b217e8607f08efeeed18b996232d64dd07f03e78e0e3bb4b078"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "9aab62deccf156ee6e324c925dfc30ecb53e8465802863a551901a461424e807"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "3fd76857f6d20c03799537cc961c1c4ddf1c375c6c192fb982363e3b9397ba138b77f24ef38b4202f44e37586789c0320e4de18fdadd2772304fd14a9b26d552"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/commons-logging/commons-logging@1.2?type=jar",
+      "modified" : false,
+      "externalReferences" : [ ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/icu.lama/ArtifactoryAgent@1.0-SNAPSHOT?project_path=%3AArtifactoryAgent",
+      "group" : "icu.lama",
+      "name" : "ArtifactoryAgent",
+      "version" : "1.0-SNAPSHOT",
+      "purl" : "pkg:maven/icu.lama/ArtifactoryAgent@1.0-SNAPSHOT?project_path=%3AArtifactoryAgent",
+      "modified" : false,
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.httpcomponents/httpclient@4.5.14?type=jar",
+      "group" : "org.apache.httpcomponents",
+      "name" : "httpclient",
+      "version" : "4.5.14",
+      "description" : "Apache HttpComponents Client",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "2cb357c4b763f47e58af6cad47df6ba3"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "1194890e6f56ec29177673f2f12d0b8e627dec98"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "c8bc7e1c51a6d4ce72f40d2ebbabf1c4b68bfe76e732104b04381b493478e9d6"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "a084ef30fb0a2a25397d8fab439fe68f67e294bf53153e2e1355b8df92886d40fe6abe35dc84f014245f7158e92641bcbd98019b4fbbd9e5a0db495b160b4ced"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "c8ccaa1fa8ba7c421413e3c30375bd9c31284e837c476fd831e18043ad4187e92166f49554123108891241bed674b95d"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "9a17dfcf12b2af3a9b006ec369f9bc78ba322348bf1a01146e0d4f3fec2bed6cbe8b2193fac5b4d5a0c3036c06477510"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "48f0a61b691e22dec9d6db8e0b58be4ca17a42a2846c82f0875de21f72bb0faa"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "4ad2c9adc761b7e813330f0dcad3f9978702896c7d0cbf81f60a472d550e320b1527be425ba597c8c9352d587e32e1d46ceb4c73e99c70a6190df4c699a7c2a9"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.httpcomponents/httpclient@4.5.14?type=jar",
+      "modified" : false,
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.httpcomponents/httpcore@4.4.16?type=jar",
+      "group" : "org.apache.httpcomponents",
+      "name" : "httpcore",
+      "version" : "4.4.16",
+      "description" : "Apache HttpComponents Core (blocking I/O)",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "28d2cd9bf8789fd2ec774fb88436ebd1"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "51cf043c87253c9f58b539c9f7e44c8894223850"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "6c9b3dd142a09dc468e23ad39aad6f75a0f2b85125104469f026e52a474e464f"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "168026436a6bcf5e96c0c59606638abbdc30de4b405ae55afde70fdf2895e267a3d48bba6bdadc5a89f38e31da3d9a9dc91e1cab7ea76f5e04322cf1ec63b838"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "ba9ceaee1a37ca3201d6a1315ecb0327b495489efd0baa155c219c475df8d3eb69fe77ab0026563db406497626da6562"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "b9dc44dcc7cc86d5036f26d54c4003a2d72808ae7b07a0808bb53505c6d4281b5ad213eb1f3d0fef1113dec57cb0dfe1"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "fd8ab51846476c6c18822151c9ec07b39a9633010b5d20ea937fc6910407bc64"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "b42fa528242981a9d70e4f68ab75a24292df5112c44c21b6f18cb9201ce747885ba1d4dc69bc3d14d0da46a6c2638f937c11bc45749abeb55dc89ddada90cdda"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.httpcomponents/httpcore@4.4.16?type=jar",
+      "modified" : false,
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.bouncycastle/bcprov-jdk18on@1.78.1?type=jar",
+      "group" : "org.bouncycastle",
+      "name" : "bcprov-jdk18on",
+      "version" : "1.78.1",
+      "description" : "The Bouncy Castle Crypto package is a Java implementation of cryptographic algorithms. This jar contains JCE provider and lightweight API for the Bouncy Castle Cryptography APIs for JDK 1.8 and up.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "9646d6d9c087fd408fafe0e3cfe56c25"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "39e9e45359e20998eb79c1828751f94a818d25f8"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "add5915e6acfc6ab5836e1fd8a5e21c6488536a8c1f21f386eeb3bf280b702d7"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "fb10c3c089921c8173ad285329f730e0e78de175d1b50b9bdd79c6a85a265af9b3331caa0c1ed57e5f47047319ce3b0f3bb5def0a3db9cccf2755cc95e145e52"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "f800642cf1d359c49455421dcc1f6d4b4225d74128bc221fb6742703d5efe009eaefdac2b8139e2168e55815df32c91c"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "de3801b40050d6839874c0f00c933f42c89badc87a64d0664960aaed1b08f350ee5bc2f0575771a9b3a217012698d5d9"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "d6a7629eefcee11d7f9cfca72d6b87d2779785ed887987cf94ce7da011b9e373"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "6a3e7b0a180e61d17de3107876e0ccce6ddfa23c165827a585b10fac8cc3629ffde930e36aaff5df2327278e35631d9ab970923fe0e34d68876b7911f2a536c5"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "name" : "Bouncy Castle Licence",
+            "url" : "https://www.bouncycastle.org/licence.html"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.bouncycastle/bcprov-jdk18on@1.78.1?type=jar",
+      "modified" : false,
+      "externalReferences" : [ ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.codehaus.jackson/jackson-core-asl@1.7.9?type=jar",
+      "publisher" : "FasterXML",
+      "group" : "org.codehaus.jackson",
+      "name" : "jackson-core-asl",
+      "version" : "1.7.9",
+      "description" : "Jackson is a high-performance JSON processor (parser, generator)",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "907c192827a7182c2872343ea0be648d"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "871cf4984b8b90ed38481e28187c056bf4eb1da1"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "6853627116c9f2f5c5c751c08cde7eb4fd92b31d971d079b16ac13a7867919f2"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "3837b87e179fe111e8c1331088d13bd265b8de60f110845f79ca2065c749a3a50030830994f5d39f49cb606ee29bcc8e198cc0a27c707d264392d0bdb7d83de8"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "1ec0f680890001d82017cfe2ab799ee14c880f4b77e202e4a77bdb405d7bf56b31d77462768d2a690a1b6564e15575c0"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "6e450f9d8443dbbee1f55eec4becf3d33c72065577091e33221b41ab5ea8af1ce85574f7eee0a045d34a0a3aae2430a6"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "2d25d3b202fb8818b32f175ceec39a4a26ff54ac396b26a85291e9b532f47eea"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "9666feab10665d0c60982f711133f924f691bcab2bffe1010592fbd4eb93e78c4723283d38932b4f60b7a901fb5acafbdfb10fa6929dfa98d51297172f4c0408"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.codehaus.jackson/jackson-core-asl@1.7.9?type=jar",
+      "modified" : false,
+      "externalReferences" : [ ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.codehaus.jackson/jackson-mapper-asl@1.7.9?type=jar",
+      "publisher" : "FasterXML",
+      "group" : "org.codehaus.jackson",
+      "name" : "jackson-mapper-asl",
+      "version" : "1.7.9",
+      "description" : "Data Mapper package is a high-performance data binding package built on Jackson JSON processor",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "551dbf681e469ea688137694d49729e5"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "18df47b209a5b0019ac15c0fb57380c231598d3f"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "68d3a8917b459d7ea4802456cbcbe1e8a2ad41cb1bfe523f79ffc608ec1cdd35"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "353af244ef8db04f32ae59567708dddda75a1bb3fbec6660766cf8bc385d15119334d75542e9d00d3fc1f3137a468d04dc067c17f5e2d0bca1d1cf07cb51aa5f"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "c1bbb95bd1a8e34b9337ca971d5e64942920d77b78bf0b6cf3b52eb3fcf330f6aa5be0f594d9fa1a00a792b8acf13289"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "b0d831fe675e16b0a44f7767a29b134813682e0596109afdbddd3434b953c7b1bafa48166600ae550750fcee01c33370"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "2d10e613a1b0a818f44decc229f69165aee1e30fcbb898e6f08b3ba66abc1224"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "580081e013fcc7f733abcd747f8f4c657c60a03e60520a60a2ad1fd60f86a2fa7b6ab968bf45107dd71f5fd2bfe51c22787d2f4fb425423aaf19638f91cbe757"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.codehaus.jackson/jackson-mapper-asl@1.7.9?type=jar",
+      "modified" : false,
+      "externalReferences" : [ ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.jetbrains.intellij.deps/trove4j@1.0.20200330?type=jar",
+      "group" : "org.jetbrains.intellij.deps",
+      "name" : "trove4j",
+      "version" : "1.0.20200330",
+      "description" : "Fork of trove4j library used in IntelliJ Platform.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "bb75697e375d588a9d3f8f2653b30f77"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "3afb14d5f9ceb459d724e907a21145e8ff394f02"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "c5fd725bffab51846bf3c77db1383c60aaaebfe1b7fe2f00d23fe1b7df0a439d"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "f80f1374015f94546f2d1bc39272de08173ac354d119f8b3f04d0976112119f9bd576af74d177a47bdab7c0e362eb3c91a999409c32ccac3488ff884d8b8d62c"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "ee980b2df49a2f343aa237217f9b78ceeb740c226fc184b7d66662488b1a1f96f47871e06dc0728edcea681d010a1df8"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "dc195a26f6f9fba44d4dbcb79730032c84ab58387c78b4f2da93dfdfdc86e9d171bf09f76d7c25c4663c43b2ae4ce55b"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "659d1ba7509eb971b7619c77878acea85de25e4c870f5e5c534a9d08ad139eba"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "d3a53d8b4730c5e0d334e74ee9f377d48eb6ff1a39a58ca13600578a67aa25d23a4f1cbdb23ab240d5f3638efab4edcf09aaad2958d7923d67d99393677eaccc"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "name" : "GNU LESSER GENERAL PUBLIC LICENSE 2.1",
+            "url" : "https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.jetbrains.intellij.deps/trove4j@1.0.20200330?type=jar",
+      "modified" : false,
+      "externalReferences" : [ ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.jetbrains.kotlin/kotlin-build-common@2.0.21?type=jar",
+      "group" : "org.jetbrains.kotlin",
+      "name" : "kotlin-build-common",
+      "version" : "2.0.21",
+      "description" : "Kotlin Build Common",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "b41e80fbf92dfe79d5d766c975a609b6"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "24fae92b31b11b156444814a7fdfffc6c0fca4c1"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "70b98749c30973d3b762108bdfb991392078b3087308acd3c1ad33aa0f46215d"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "9ee0c7f6637ca11f4f38b27358b9e0893ee5c41ae88a54bce3b8c8c14688f754f7065e8b5d78d9f481400ab192be28bb7e83c1c2c1f77258265e5c5546548c35"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "64e6df13f558e808733039a949df9847e36770edb21a22825cc166124f4b0a6a0d6478532967d405b66d432b3583c710"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "57b2e4386ba8851fd3ae36dc35840975d59806c001a5958053db4b957a7efef79cb4864ec07c363e1c9227771b91653f"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "a8099b9b035a4df7e17519f64541488b826db4f65b8061cc1d50cbb28e0244fb"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "22de735f2e74d5629c54e9e53c9781dc5e76f0e35000c1ddd5fbbb18d76935cc563fcfce60b82d0525eeea6a3adbca8178db88fa90c7e3a8eb1601273356bdaf"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.jetbrains.kotlin/kotlin-build-common@2.0.21?type=jar",
+      "modified" : false,
+      "externalReferences" : [ ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.jetbrains.kotlin/kotlin-build-tools-api@2.0.21?type=jar",
+      "group" : "org.jetbrains.kotlin",
+      "name" : "kotlin-build-tools-api",
+      "version" : "2.0.21",
+      "description" : "Kotlin Build Tools Api",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "b13b3e7240664cc5029c50824e04c064"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "612804301136399c0cc5c93f2366ef33fd0afdc3"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "8fca2b4af6c4cf24565d9a7f64c3178489518d049e106981db6718ef22cae18e"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "5b713ab3d2a3a04ac16a229d178e2ceaa9dcde7608cf2e6597c731972bef20542b981d58d151a3a9c3fb1b81f446835d0d21af446c57ab2dbba579eb383b6879"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "f1296318ba60ca12324d2ad8f58b77b860b54b3fbbf750b7ff0650fb46a83ec69a05093bd9cebef50dff8ef767593077"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "9d3d993c18037af035fa8d09be0d0e5397350571dfe1ec3091b8f7afedf4daeefb25883ce5afee2ec73056aacd862f38"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "6f90099316923d027879e23559e5cf934dba2272a3e266cb63b95e619791c162"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "e0ae5e6f5e171fba6ae2350722ac58d44f6c5f47c676a29236666f88ef6e7d0528d06be9b9cf0f927a0af1fe78197bb846896c12cb831e3130c71ad6f19e37ef"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.jetbrains.kotlin/kotlin-build-tools-api@2.0.21?type=jar",
+      "modified" : false,
+      "externalReferences" : [ ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.jetbrains.kotlin/kotlin-build-tools-impl@2.0.21?type=jar",
+      "group" : "org.jetbrains.kotlin",
+      "name" : "kotlin-build-tools-impl",
+      "version" : "2.0.21",
+      "description" : "Kotlin Build Tools Impl",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "49f913b04df07796c15e87d990024470"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "0c19eac50ec66f36f876f798dd99713bf64c83c1"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "ba6ea24daed44717f503072a91c59b0da7e9caf0002bd0ec1be773294c127dcb"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "3982117e5579a40618f9d21bad56ecf4792aba7f46182f984f64bb8ea12bd3d004c8e5796f0326efbfeb43d48c3a3000d6e340536f4ecee589a8cc8b9d1e80b9"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "f48c9bca0ea0ae50157ad8816b21d803c89e49d4612acc70b0aae9ecbadb1a92b1efac6e6ecb8842a7ebe22a1967b5c2"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "e18e113cecc077354b2767a9a2f7de1c457fd2d1f8aa0c8973b32ee4f043ce25b0e5c4fd52e05ae2a21625fbd4fe33c0"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "e70b17d6aa44f197d185ad15d07699b844a5c3d6db5d8f7c6083c7b8a5892b31"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "2fadc7259093f6ce2213dc2b23301825c4dda281440c4573e92a24e41dacf0b8f8300b90b77cc389ce70246fd5538187a7235c9ddb036f15cf9964c8f21524c4"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.jetbrains.kotlin/kotlin-build-tools-impl@2.0.21?type=jar",
+      "modified" : false,
+      "externalReferences" : [ ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.jetbrains.kotlin/kotlin-compiler-embeddable@2.0.21?type=jar",
+      "group" : "org.jetbrains.kotlin",
+      "name" : "kotlin-compiler-embeddable",
+      "version" : "2.0.21",
+      "description" : "Kotlin Compiler (embeddable)",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "9a18f9396b08dcc5fa4e356127285a8b"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "79346ed53db48b18312a472602eb5c057070c54d"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "9fa8cdd1de0dccffe154c997d423ec6b5f53cd6d9177e3a77a9b0de03fb1bc81"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "b1b58efdc486d5e2dde47cbc774ef4e3a81c3059858777097c09dad9cb1f97e6a343314f4b433783511dbabdffe6b85fedef578c5bce6112ff5aebd157d9e73f"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "8cba28a6458bd98f994ca491d1716c7aa4eafa4c785a318efe45367a397792c2e28bedf80e6fdedc23fe8c024c922de7"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "e49e471e2839685f4af4df1177a50c2a9803c75772800bed24141cf8493831d1c958e740c5b0fa24eb08dd4e68a7b182"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "f1ee347dbe8b3f9531ee12c1ffecb2dd62a28fc1817e20d4230edff07d84c387"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "9268d892501a48a22f91f47fcb3fa19440571768c8bda01750609633fb267466bfeb915291eb30d1bb3733805b03d3eba53baaf12f5a531a0aef93c63db41c2f"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.jetbrains.kotlin/kotlin-compiler-embeddable@2.0.21?type=jar",
+      "modified" : false,
+      "externalReferences" : [ ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.jetbrains.kotlin/kotlin-compiler-runner@2.0.21?type=jar",
+      "group" : "org.jetbrains.kotlin",
+      "name" : "kotlin-compiler-runner",
+      "version" : "2.0.21",
+      "description" : "Compiler runner + daemon client",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "4b11396f7f44616b2d2133011ac4825e"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "ea7301e9ee0a6cf310b67619709d578dd57896dc"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "08e605be81060ff612d0aeb94058a19bc4ac99625c35c461c6c0b302560e9104"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "4c90f74116e85ba86cde5c3b7196cfc683bfddf9b5235037ac8adfe28a092bcf28f8a5aeb3b5b34a7c5342f7f3b4ac496735eb913d61be60a6c1ad797a88d038"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "042d429ab59ab69dc2d0d590212bcf1a6241e230838a4d209e5790435fc5b113d825ce5ac03156d9023ba5022c228329"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "9934b203a077ac95178ce945d316f6f08de0aa12409503bbf39d6e123aead97e93a395a5c84a9fc7ddb1ecbaa527b821"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "8138c3d605ae46dab62fe84583b2006043a3d10ebcc5699286d3d8c95a89b39a"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "467a7ec9f8433902527a632c69d6a96407fc3f9edbfa3bec6bee94a022e501d4f96008c3703bf9d3e96bc7e1a0055304339e8578a76f3030dadd36f7cd91b3fc"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.jetbrains.kotlin/kotlin-compiler-runner@2.0.21?type=jar",
+      "modified" : false,
+      "externalReferences" : [ ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.jetbrains.kotlin/kotlin-daemon-client@2.0.21?type=jar",
+      "group" : "org.jetbrains.kotlin",
+      "name" : "kotlin-daemon-client",
+      "version" : "2.0.21",
+      "description" : "Kotlin Daemon Client",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "e97b7a4b849e59d0da6e77d1963de9bd"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "10cbd364d0703452050d9c4925fd24a6fec7e8d9"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "371ea08e4f036882cc8e064ffcf6445990df444295ba1ec68928e7cc2b5bc015"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "392eaa5e9ed71b6b0d0b78807757a0604b0f4868ccce0dbbe6a546e44c20eff5ca328835d2459a275f7b706441468993cb475e8dd61e97eb500a09c0f741267d"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "edc432b99ef169dc40b69ebebb30405f394bdd11a9c9d640ceaf387e31e085f66c72d811c3bcaf6fbf16458203f5ab14"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "29239badf87ba4a4058e05050871fcb99e9ae734c71d7e84de541adb0813cb8a4df3119b36ec50194de2b64780006e8b"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "8527c9d17a38517a761326fba68d3d57ee8787c27fc7637bb736435c34dd8e73"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "37e6549565272519b508acb014ea218ce11895149f2ad2211a74e3a6cc54c62679559d6f48d4f4f416426a2c1f071ced13fc6f60808b2abab5d53cedae50f93b"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.jetbrains.kotlin/kotlin-daemon-client@2.0.21?type=jar",
+      "modified" : false,
+      "externalReferences" : [ ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.jetbrains.kotlin/kotlin-daemon-embeddable@2.0.21?type=jar",
+      "group" : "org.jetbrains.kotlin",
+      "name" : "kotlin-daemon-embeddable",
+      "version" : "2.0.21",
+      "description" : "Kotlin Daemon (for using with embeddable compiler)",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "639ed7707b89c1923ea170a25e65698b"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "c9e933b23287de9b5a17e2116b4657bb91aea72c"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "b1a0a73c5022f8dd05a638c6b76b2bd7361818a1f3860ff2644133b1dd2bdb03"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "1906eaef528ce574c2156a3946ec3875bb7dd4fe31ed323a6986ca2242112c105c826722f455b4fc218a4db91bb40a057082baf1b05054c67fa786b486aee14b"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "32ec6bbf3efa02a167c03a945a43bcc348cbdf61189f1b5af9d1fe94af7b7758e2666f023922041b7cfe6ff0c1f5b1e2"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "477b66264b6fe7b19ef1b85173602a7ddd7d9faaacb457b82a0feb45e6f0c79f27c1e7ac93ae694cb7d9d6e4b6d3d605"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "529d7bf4c3fe7ddd3ee79a9912b3956bb9cd7cfa44eb54d0fb11e89b79dc3d6f"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "97ebb5d12aec05e2293aaaefda953d4e8c58752a2bf9627126f4fd634e12be80b1dfd6730155b9da98f9255f22e2a4202a8918b213807f5349116225cf82e9a7"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.jetbrains.kotlin/kotlin-daemon-embeddable@2.0.21?type=jar",
+      "modified" : false,
+      "externalReferences" : [ ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.jetbrains.kotlin/kotlin-klib-commonizer-embeddable@2.0.21?type=jar",
+      "group" : "org.jetbrains.kotlin",
+      "name" : "kotlin-klib-commonizer-embeddable",
+      "version" : "2.0.21",
+      "description" : "Kotlin KLIB Library Commonizer (for using with embeddable compiler)",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "71a9af6701c4a9cc94c983eb9ed04da2"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "8a762a552160037c6a068b61f4a9355db8314d8a"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "d86bf4338a6d841cccdfbbff2da05bd03a49c3db8c3f97ab85e77e021ad0845b"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "dd4dd86e25cbcb58d2344b866b5304df0e0a2a01dd818c7082c0a301264ccbb7c7e6e3c75344e2fc426051e2eea3c8c204efa43ff01eaac471746f22d73348db"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "67868e1c5b97563c6d2d3a427ba36d5369c24eb13d2b8ad1c01a03086aa4eee2366b2582bd2f64f4a7b6d427f3630e12"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "b38b4f92c838443cf30531f887bf01be91dcce032b87f8580f7c08bcad7e910475a482eec9bc281b9793fbbe42c60d40"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "065632a518356b7d4860f7f748a9eddfe09711ac418531633c7892da43df5fd9"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "d2bb0af355ddb5777a9cc9fa8fd221d31437bf5521cfc5c1189846909bbbe9db10020f3f6ce3256805d8d0919beb10557d72cfafd4c73f9521a1a502120be5b2"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.jetbrains.kotlin/kotlin-klib-commonizer-embeddable@2.0.21?type=jar",
+      "modified" : false,
+      "externalReferences" : [ ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.jetbrains.kotlin/kotlin-native-prebuilt@2.0.21?type=pom",
+      "group" : "org.jetbrains.kotlin",
+      "name" : "kotlin-native-prebuilt",
+      "version" : "2.0.21",
+      "description" : "Kotlin/Native bundle (prebuilt platform libs)",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.jetbrains.kotlin/kotlin-native-prebuilt@2.0.21?type=pom",
+      "modified" : false,
+      "externalReferences" : [ ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.jetbrains.kotlin/kotlin-reflect@1.6.10?type=jar",
+      "group" : "org.jetbrains.kotlin",
+      "name" : "kotlin-reflect",
+      "version" : "1.6.10",
+      "description" : "Kotlin Full Reflection Library",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "a22187e3070e39a1cdb6a53970fa714d"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "1cbe9c92c12a94eea200d23c2bbaedaf3daf5132"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "3277ac102ae17aad10a55abec75ff5696c8d109790396434b496e75087854203"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "b28392f114dc049bc4582c5bdbb5b60d74358668efb25579c2ed5ac749debda89dc7426aed1f7f548b5f121f7df227c9d37b4aa49b315a0779afd5847d17872d"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "210202933e5c0b7bb60042634fc393d4d4190f2ccfba51a6501f91db5cc76a88c6a65e691c6982a9c73ee11e5ea13bbd"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "6ce999b8b9c8f01b3f09d3d10ea456b139c0b25964cff8a8b377d294131b89dd9a150a865975586608687951f0ee4b75"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "64a4cec9a106c59dbdd8bfc54e68fa26161056cbc4fe36d0bc60df63c8b46e0a"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "0c398d045078890ee6b89d44400fb378309da68e12c7ce8a7d905bdae8b6bd98012ad884d9495fa73303061e5fa605caafa7f7667e143af0c637dcfe3169d936"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.jetbrains.kotlin/kotlin-reflect@1.6.10?type=jar",
+      "modified" : false,
+      "externalReferences" : [ ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.jetbrains.kotlin/kotlin-script-runtime@2.0.21?type=jar",
+      "group" : "org.jetbrains.kotlin",
+      "name" : "kotlin-script-runtime",
+      "version" : "2.0.21",
+      "description" : "Kotlin Script Runtime",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "f2cbba5a1fdf34c9aae78e296474badd"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "c9b044380ad41f89aa89aa896c2d32a8c0b2129d"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "9c111f8d08ade455566272d561921adc2b2cb6b7a4ccee38d9829c5e3a1ca6a3"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "52b19de82211d58f1635662cf8b8dbf762a7c0cd8acef3543d98cc1cbc22a210e012f113fe1f6bb4090da30497b431e5026445b70eb2194c2af6361fe437d1c5"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "249d52c244c71de8cb12d0a25d02ceb3904bbd45a6f47c7962040b85417feeca627e59496aa2f77b33ae54c65c284d77"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "c5a65907a35a8cac43e73ff010895758b0362fd83d68bad6077ed057a25982fa9a7d5a0442933dd3676270238c460bc2"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "7cbcf10f13a04231e6c6145b98ed6b81c7bdf7cda632e0028003ab2073ffd722"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "05ff3892394b1c1ef479d73108d9dc28d3fb016017318f67f27247a310dc555c95d66c3cc6bb0892d5e27d7e6b035399ff314963a5ecfa61261bd9c7f43d6b31"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.jetbrains.kotlin/kotlin-script-runtime@2.0.21?type=jar",
+      "modified" : false,
+      "externalReferences" : [ ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.jetbrains.kotlin/kotlin-scripting-common@2.0.21?type=jar",
+      "group" : "org.jetbrains.kotlin",
+      "name" : "kotlin-scripting-common",
+      "version" : "2.0.21",
+      "description" : "Kotlin Scripting Common",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "5311595520653b0792287d9235527cc8"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "2aeb50e2df2ef94f6b90b7ab2c56d5e18d3687c1"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "f87deb2b14d068f99cba18217d80af85481c029c731ad8704458e9add9ca20f8"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "182bfd5d7d87a61538d3fd40942299229d01b21113096a4eee8e75bd5c631649b86746f61cee973a3fd9b4a1916b2601d92bcb2caba98de4bfc168dc525c130a"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "dcb1e52b26decdb9b481fef2952ef39954d1fa62ca7ce1bad78ea7816c29857b38ac145fc98617ce401ab5e9a83b761a"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "87c802756d11ff88c843253cfc9da9fa2c6ee175d33f99081c2c22c26b866c908873b697573ea6167d837c6028cf045d"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "075b5c575d16120a416bbafad9dc09a7c9856f8205b34e2d7caadc917ace76cf"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "69ea2b6172211b1ae03c8e0961bb46d2186ca43c9d36da9f792285e1240281660b2be2b641f107cb8135333d3490e189aa7a83cfebc8df719e5ec7fde17e3476"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.jetbrains.kotlin/kotlin-scripting-common@2.0.21?type=jar",
+      "modified" : false,
+      "externalReferences" : [ ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.jetbrains.kotlin/kotlin-scripting-compiler-embeddable@2.0.21?type=jar",
+      "group" : "org.jetbrains.kotlin",
+      "name" : "kotlin-scripting-compiler-embeddable",
+      "version" : "2.0.21",
+      "description" : "Kotlin Scripting Compiler Plugin for embeddable compiler",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "e546dd51aefae1cc55159a5214da63f8"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "ac0c290312174e309c3e65711ab29fed1442532a"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "2413c230fdd8cd47ebbeba273e4df94cf3b44cb3ec95d2cb35472c93768c9f1c"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "d7f843991852edc2f39d53f55214a36f0c10993b099d0a2db38f298c5b302bbf741f4faacdaba0744d4e5badafbaa4bd352f74b13702ccfbbd1a4e5041535667"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "1700195815d00c79450253ec939ee75b7d86c1b3bcec01a04798540afdf917b865408850a52b8e67d769a371061569dd"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "38799a4ca70f92f4b3de52f921faf950a8549b81119b77da00f29229c63503599049c7f5783e8e80516a4faa3ff795a3"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "e525cb66efaa24fffe5c992ace0c0026e4bcf2036b285bcff14e04ae4d4bc82a"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "3d7ec36ccd334e7cd9f372c77e7f7ce6af690f45b0eec579faf11293947801cf836bf850f48e47a17e544902b9427524ab3b7c1bff9bb955344353c9259e3d8b"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.jetbrains.kotlin/kotlin-scripting-compiler-embeddable@2.0.21?type=jar",
+      "modified" : false,
+      "externalReferences" : [ ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.jetbrains.kotlin/kotlin-scripting-compiler-impl-embeddable@2.0.21?type=jar",
+      "group" : "org.jetbrains.kotlin",
+      "name" : "kotlin-scripting-compiler-impl-embeddable",
+      "version" : "2.0.21",
+      "description" : "Kotlin Compiler Infrastructure for Scripting for embeddable compiler",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "0d5fe375f0086f7ac84937e66eb4ed45"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "84c79a332f515fd6dd3ea2ab50c227c4a5756c37"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "6ed0fa5beb25466883989b5641f36809479260b7014535502fd387ce6c7ba833"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "caf8f5096dbc8f1945d3a1e23d82d698703f8a60b53477ca92eb0d712015e1b6f9e6ce72b61ae75016f94fa5dfc26cb7b76975cce475b85ef163c99f3cadbfe0"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "4c2e7d91e47133eb7bbd7e7e8d8636280db150a07064468ee617b94e89b7034b8836bfeefec14e36bcd59f76c13c0457"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "d4c27d3176a5565ddbe80bcbdedcd961756038f37a0fbcc77cedf9bdada2c76cc55edc1811d58aaacaf1bdd177545194"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "e503e803b7c9ec3230ed15bcba664bac9c95c367a78d7f36592186dc9e261303"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "bf59afec764622f619d304632490e2ee0d3e67740bd5fd9c5f2b2e79d21e0e8d8bc6bb14facb614eb12d84d9e50019375a050cc70e2ed2499f756ec38da8fa9b"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.jetbrains.kotlin/kotlin-scripting-compiler-impl-embeddable@2.0.21?type=jar",
+      "modified" : false,
+      "externalReferences" : [ ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.jetbrains.kotlin/kotlin-scripting-jvm@2.0.21?type=jar",
+      "group" : "org.jetbrains.kotlin",
+      "name" : "kotlin-scripting-jvm",
+      "version" : "2.0.21",
+      "description" : "Kotlin Scripting Jvm",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "20f62582513a55f7d626d0232657a7ba"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "939d8b644308f8d97c60317df76ee40299475831"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "88427f0f7a4c47845fa2221d29f6e0e0d7cbe73c3edf8bca30b4d8b3a336a77c"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "da226ccf0a4b5e69f0aef7214d3638198af1056812f1539bfdf37c6f0233d174909b48b5e2fa5e1905e0a2b913f36ba667f84150b3fbd8e2d86d7901654e9dcb"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "b9145408eaca7769625cdfcd1d5ff607096aa87768df78b79bb9d298d2c0149a77bffeb24402cfaa60cb033fc03dd54f"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "4dd5d8db087de1624f25cdea230909bd902d52a1346a37bb95b1bb86e69796e47734e5698cfb188c508db2c74c6fe486"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "2a2d604816b7bc26e2079ef4494f02c1694583e67d0473eac2ffb86bb48935f4"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "19a67c8606700cf434f147f008965b8bae80f8d3f3be13e9a36bba4c8313cfeb33290b2e9c50a984c5c8b985a3151d04bbfcb46f7dea87ca27a63399430ba805"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.jetbrains.kotlin/kotlin-scripting-jvm@2.0.21?type=jar",
+      "modified" : false,
+      "externalReferences" : [ ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@2.0.21?type=jar",
+      "group" : "org.jetbrains.kotlin",
+      "name" : "kotlin-stdlib",
+      "version" : "2.0.21",
+      "description" : "Kotlin Standard Library",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "e7e10f7c657d520b39dde64e22cc0d6a"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "9bd1e1253e62c42a33a786a0cbe24da0050cb71c"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "50ffadeb20b4d2456a526595a4f7a9e85889682715073e6cdba1b1d80e3ad458"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "a79ce9bc5c2094210f592898d324ca8060ec21f3e96db4fe2dd1f407016b9b3239c28a964932c460006ad542e1346eabd29cf9d743dedd911d186dce2704475d"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "6d36253ce6ca52cd747eab3d02410ea39bf8bc919a25fb4de1af531de517dd0f729406bfedb14332b8688e3adfe3652d"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "0d4e82c10dfe70d7aa0cb953c556ec04a0fb4991671aca84eecc8bf60e99df059cbbbb47b3fd63c33d69e72a9e12148f"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "21949b4f0cee8f4bf0292f6b04df5c80cb798587f4f5057b57ed0bac3bcb1777"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "72a539647c5a688ead1b03bcbc18542b831944d663445296f2312fc3b31b4a7c57ecbdfd445a58b1af09ad8466eb3707dcb76d2c1df4d304aad0973c8b76d596"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@2.0.21?type=jar",
+      "modified" : false,
+      "externalReferences" : [ ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm@1.6.4?type=jar",
+      "group" : "org.jetbrains.kotlinx",
+      "name" : "kotlinx-coroutines-core-jvm",
+      "version" : "1.6.4",
+      "description" : "Coroutines support libraries for Kotlin",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "9ba1873872fe1406d39bc40683050c45"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "2c997cd1c0ef33f3e751d3831929aeff1390cb30"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "c24c8bb27bb320c4a93871501a7e5e0c61607638907b197aef675513d4c820be"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "a4fb638b7427b4e2a87d750958e6ca66c75eefb64c4f359cbfa2d08c868455aa0ff9091c2f2e61f1e4a7c51a3771c68795e96cf306368945940f172dd324742d"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "b31a6017e4d83ed1242d677d61e8d9d689cd20963f38eb19270be3f8640cfdb3a8c8a7e746ad2e3b49da3cc5a58cf9d4"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "25a110c5c57fc339bf8059bfd40e18f7b00906eb0e34da4fe836523ab076bd07a37f13141cbc21dcfd226fe6fd38fe65"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "43ab27c32dd36e89304a827e3e8ca895551e249485a5225b9d01a981b6b6d279"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "7c40decc4c82b95486b8a3d1528a24296a6e8ab2fdf8983ad763d514314dbc12e398e42de61a16922aeca7c4471e6c23c5f37f21007582aaecbf1e8cd0686831"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm@1.6.4?type=jar",
+      "modified" : false,
+      "externalReferences" : [ ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.jetbrains/annotations@13.0?type=jar",
+      "group" : "org.jetbrains",
+      "name" : "annotations",
+      "version" : "13.0",
+      "description" : "A set of annotations used for code inspection support and code documentation.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "f4fb462172517b46b6cd90003508515a"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "919f0dfe192fb4e063e7dacadee7f8bb9a2672a9"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "ace2a10dc8e2d5fd34925ecac03e4988b2c0f851650c94b8cef49ba1bd111478"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "5622d0ffe410e7272e2bb9fae1006caedeb86d0c62d2d9f3929a3b3cdcdef1963218fcf0cede82e95ef9f4da3ed4a173fa055ee6e4038886376181e0423e02ff"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "6bcde3a6e471d416522e6288474bc4f9115e2e8abf8ce5d300829bee4aa98dff73be7d8c6f0607f3d6d423c7f5abbf90"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "f4d5a5d5a76b24c4751c8c52f2879b097d2430c3571c59b4630e8c871c9bdb08e24e803a14c24fc8d3378417f29b7244"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "b4a80ea81c4bc7e364e07981465f547e8ed83031806eaf3b97dfb38f894f5b6f"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "15b23bce818b4399b334dd632eb85de5a1b70c47fb9260561e70b1f726211c83bddbc957f3b4c32a1d8c687f9bc6c38d0a638c731cb5daf5b619aa725d6050c2"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.jetbrains/annotations@13.0?type=jar",
+      "modified" : false,
+      "externalReferences" : [ ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.slf4j/slf4j-api@2.0.7?type=jar",
+      "group" : "org.slf4j",
+      "name" : "slf4j-api",
+      "version" : "2.0.7",
+      "description" : "The slf4j API",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "403dffa46cdd2e3c82da19df4f394a4c"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "41eb7184ea9d556f23e18b5cb99cad1f8581fc00"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "5d6298b93a1905c32cda6478808ac14c2d4a47e91535e53c41f7feeb85d946f4"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "216d2cac27d501972c888f94dfa747d700b80d60813884b6ab4b12c6a3b17ed0c21a1d27e1aa4332c97c828f20039e3913d2763d7e1a3cef36ae4389a276e7a8"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "c25b39f418aa726ba8405dfd9b356131f89984e2ef5a55a724a2abf3b7c78443f671105835161d2414d602cf03da9f2d"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "f33abfaac21badae6f85d3ebbc6c1204fd7fda3bb15173e763fa8cee95bce6a8270eec2c8f49343c66c8d2767bc317e1"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "6e00d4b264a2afc4ca4e98f716ecece66c32c626ca3f8c5d56b22092b6fe417b"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "ad7b9142d370fc532a07cdd43881a129b012ff50e2bede3ac27d9bd31ec707bf2f45e82002fa59e962955cc38ab73cdd77713fca50cedc926c046f5617c1285b"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT",
+            "url" : "https://opensource.org/license/mit/"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.slf4j/slf4j-api@2.0.7?type=jar",
+      "modified" : false,
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.yaml/snakeyaml@2.0?type=jar",
+      "group" : "org.yaml",
+      "name" : "snakeyaml",
+      "version" : "2.0",
+      "description" : "YAML 1.1 parser and emitter for Java",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "caf24b81b9d57e6d4f68b1ccd36e00a3"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "3aab2116756442bf0d4cd1c089b24d34c3baa253"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "880c9d896e4b74a06c549c15ca496450165d6909fa15d7e662bee8f6a66d7afa"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "93567558444365c436027bd1064b67ae99abde77fa89b33ac7c586ab83e4dbf02b7610669fd00ccd258bca6ba3fa078954c92d918b989317dce7bf9ce18836b8"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "63c0ec40f4e3f24786031fb8a9477071c86e69247dce283ff725e328e26fba7bdfbb0ab52027b9b0988b3978703a95fe"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "fedd091de2b63c38fb04cb8e2d657bc7b37193ef065b18058be892d6b816d7cb68e5445819c3f3f8fca116311adc9760"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "66264c5c5f4703942a959310c14f22df9c2b1c304ddca1d1c211da58af5623f4"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "0c4c5807880025a22791114253443d2166218760d63b80cd72eb3fdd71a19fdadb27d392b47de9c6b7ca2a2dc312273f0b8c97012ff277d2cab0fd06f3902573"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.yaml/snakeyaml@2.0?type=jar",
+      "modified" : false,
+      "externalReferences" : [ ],
+      "properties" : [
+        {
+          "name" : "cdx:maven:package:test",
+          "value" : "false"
+        }
+      ]
+    }
+  ],
+  "dependencies" : [
+    {
+      "ref" : "pkg:maven/commons-cli/commons-cli@1.8.0?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/commons-codec/commons-codec@1.13?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/commons-logging/commons-logging@1.2?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/icu.lama/ArtifactoryAgent@1.0-SNAPSHOT?project_path=%3AArtifactoryAgent",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/icu.lama/ArtifactoryKeygen@1.0-SNAPSHOT?project_path=%3A",
+      "dependsOn" : [
+        "pkg:maven/org.yaml/snakeyaml@2.0?type=jar",
+        "pkg:maven/org.jetbrains.kotlin/kotlin-native-prebuilt@2.0.21?type=pom",
+        "pkg:maven/icu.lama/ArtifactoryAgent@1.0-SNAPSHOT?project_path=%3AArtifactoryAgent",
+        "pkg:maven/commons-cli/commons-cli@1.8.0?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@2.0.7?type=jar",
+        "pkg:maven/commons-codec/commons-codec@1.13?type=jar",
+        "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@2.0.21?type=jar",
+        "pkg:maven/org.jetbrains.kotlin/kotlin-build-tools-impl@2.0.21?type=jar",
+        "pkg:maven/org.apache.httpcomponents/httpclient@4.5.14?type=jar",
+        "pkg:maven/org.codehaus.jackson/jackson-mapper-asl@1.7.9?type=jar",
+        "pkg:maven/org.jetbrains.kotlin/kotlin-scripting-compiler-embeddable@2.0.21?type=jar",
+        "pkg:maven/org.jetbrains.kotlin/kotlin-klib-commonizer-embeddable@2.0.21?type=jar",
+        "pkg:maven/org.codehaus.jackson/jackson-core-asl@1.7.9?type=jar",
+        "pkg:maven/org.jetbrains.kotlin/kotlin-compiler-embeddable@2.0.21?type=jar",
+        "pkg:maven/org.bouncycastle/bcprov-jdk18on@1.78.1?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.httpcomponents/httpclient@4.5.14?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.apache.httpcomponents/httpcore@4.4.16?type=jar",
+        "pkg:maven/commons-codec/commons-codec@1.13?type=jar",
+        "pkg:maven/commons-logging/commons-logging@1.2?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.httpcomponents/httpcore@4.4.16?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.bouncycastle/bcprov-jdk18on@1.78.1?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.codehaus.jackson/jackson-core-asl@1.7.9?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.codehaus.jackson/jackson-mapper-asl@1.7.9?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.codehaus.jackson/jackson-core-asl@1.7.9?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.jetbrains.intellij.deps/trove4j@1.0.20200330?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.jetbrains.kotlin/kotlin-build-common@2.0.21?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.jetbrains.kotlin/kotlin-build-tools-api@2.0.21?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.jetbrains.kotlin/kotlin-build-tools-impl@2.0.21?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.jetbrains.kotlin/kotlin-scripting-compiler-impl-embeddable@2.0.21?type=jar",
+        "pkg:maven/org.jetbrains.kotlin/kotlin-scripting-compiler-embeddable@2.0.21?type=jar",
+        "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@2.0.21?type=jar",
+        "pkg:maven/org.jetbrains.kotlin/kotlin-compiler-embeddable@2.0.21?type=jar",
+        "pkg:maven/org.jetbrains.kotlin/kotlin-build-tools-api@2.0.21?type=jar",
+        "pkg:maven/org.jetbrains.kotlin/kotlin-compiler-runner@2.0.21?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.jetbrains.kotlin/kotlin-compiler-embeddable@2.0.21?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.jetbrains.intellij.deps/trove4j@1.0.20200330?type=jar",
+        "pkg:maven/org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm@1.6.4?type=jar",
+        "pkg:maven/org.jetbrains.kotlin/kotlin-script-runtime@2.0.21?type=jar",
+        "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@2.0.21?type=jar",
+        "pkg:maven/org.jetbrains.kotlin/kotlin-reflect@1.6.10?type=jar",
+        "pkg:maven/org.jetbrains.kotlin/kotlin-daemon-embeddable@2.0.21?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.jetbrains.kotlin/kotlin-compiler-runner@2.0.21?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.jetbrains.kotlin/kotlin-build-common@2.0.21?type=jar",
+        "pkg:maven/org.jetbrains.kotlin/kotlin-daemon-client@2.0.21?type=jar",
+        "pkg:maven/org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm@1.6.4?type=jar",
+        "pkg:maven/org.jetbrains.kotlin/kotlin-compiler-embeddable@2.0.21?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.jetbrains.kotlin/kotlin-daemon-client@2.0.21?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@2.0.21?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.jetbrains.kotlin/kotlin-daemon-embeddable@2.0.21?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.jetbrains.kotlin/kotlin-klib-commonizer-embeddable@2.0.21?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@2.0.21?type=jar",
+        "pkg:maven/org.jetbrains.kotlin/kotlin-compiler-embeddable@2.0.21?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.jetbrains.kotlin/kotlin-native-prebuilt@2.0.21?type=pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.jetbrains.kotlin/kotlin-reflect@1.6.10?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.jetbrains.kotlin/kotlin-script-runtime@2.0.21?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.jetbrains.kotlin/kotlin-scripting-common@2.0.21?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@2.0.21?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.jetbrains.kotlin/kotlin-scripting-compiler-embeddable@2.0.21?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.jetbrains.kotlin/kotlin-scripting-compiler-impl-embeddable@2.0.21?type=jar",
+        "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@2.0.21?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.jetbrains.kotlin/kotlin-scripting-compiler-impl-embeddable@2.0.21?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.jetbrains.kotlin/kotlin-scripting-jvm@2.0.21?type=jar",
+        "pkg:maven/org.jetbrains.kotlin/kotlin-scripting-common@2.0.21?type=jar",
+        "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@2.0.21?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.jetbrains.kotlin/kotlin-scripting-jvm@2.0.21?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.jetbrains.kotlin/kotlin-scripting-common@2.0.21?type=jar",
+        "pkg:maven/org.jetbrains.kotlin/kotlin-script-runtime@2.0.21?type=jar",
+        "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@2.0.21?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@2.0.21?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.jetbrains/annotations@13.0?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm@1.6.4?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.jetbrains/annotations@13.0?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.slf4j/slf4j-api@2.0.7?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.yaml/snakeyaml@2.0?type=jar",
+      "dependsOn" : [ ]
+    }
+  ]
+}
